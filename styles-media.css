@@ -1,0 +1,569 @@
+@media all and (max-width:1320px) {
+
+  .container {
+    width:90%;
+    height: 100%;
+  
+    margin:0 auto;
+  }
+
+  footer {
+    width: 100%;
+    height: max-content;
+  
+    background:#073BA1;
+  
+    padding:50px 0px;
+  }
+}
+
+
+@media all and (max-width:1220px) {
+
+  .container {
+    width:97%;
+    height: 100%;
+  
+    margin:0 auto;
+  }
+
+  footer {
+    width: 100%;
+    height: max-content;
+  
+    background:#073BA1;
+  
+    padding:50px 0px;
+  }
+
+  .flex-box-footer {
+    width: 100%;
+    height: 100%;
+  
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: end;
+    column-gap:50px;
+  }
+
+  .flex-box-footer-second {
+    width:100%;
+    height: 100%;
+  
+    display:flex;
+    justify-content:center;
+    column-gap:90px;
+
+    margin-top:50px;
+  }
+
+  .first-box-footer,
+  .second-box-footer,
+  .third-box-footer,
+  .fourth-box-footer {
+    display:flex;
+    justify-content: center;
+
+    padding-left:100px;
+  }
+
+  .first-box-footer div,
+  .second-box-footer div,
+  .third-box-footer div,
+  .fourth-box-footer div {
+    width:100%;
+    /* height: 100%; */
+  }
+
+
+
+  .fourth-box-footer .credit-text-small {
+    font-size: 14px;
+    font-weight: 400;
+  
+    line-height: 24px;
+
+    margin-bottom:20px;
+  }
+
+}
+
+
+@media all and (max-width:1070px) {
+
+  .container {
+    width:97%;
+    height: 100%;
+  
+    margin:0 auto;
+  }
+
+  .flex-box-footer {
+    width: 100%;
+    height: 100%;
+  
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: center;
+    column-gap:30px;
+  }
+
+  footer .flex-box-footer p{
+    color:white;
+    
+    font-size:14px;
+    font-weight: 400;
+  
+    line-height: 24px;
+  
+    margin-top:10px;
+  }
+
+  footer .flex-box-footer h1 {
+    color:white;
+  
+    font-size:16px;
+    font-weight: 500;
+  
+    line-height: 24px;
+  }
+
+  footer .first-box-footer  div img {
+    width:160px;
+    height: 50px;
+  }
+
+  .second-box-footer .data-flex {
+    display:flex;
+    align-items: center;
+  
+    column-gap:20px;
+  }
+
+  .fourth-box-footer .credit-text-small {
+    font-size: 12px;
+    font-weight: 400;
+  
+    line-height: 22px;
+  }
+
+  /*Second flex-boc footer */
+
+  .flex-box-footer-second {
+    width:100%;
+    height: 100%;
+  
+    display:flex;
+    justify-content:center;
+    column-gap:50px;
+  }
+
+  .first-box-footer,
+  .second-box-footer,
+  .third-box-footer,
+  .fourth-box-footer {
+    display:flex;
+    justify-content: center;
+
+    padding-left:0px;
+  }
+
+  .first-box-footer div,
+  .second-box-footer div,
+  .third-box-footer div,
+  .fourth-box-footer div {
+    width:220px;
+    /* height: 100%; */
+  }
+/* 
+  .flex-box-footer-second {
+    width:100%;
+    height: 100%;
+  
+    display:flex;
+    justify-content: center;
+    column-gap:90px;
+
+    margin-top:50px;
+  } */
+
+  .flex-box-footer-second p {
+    color:white;
+    
+    font-size:14px;
+    font-weight: 400;
+  
+    line-height: 28px;
+  }
+
+
+
+
+  .flex-box-nav .right-nav {
+    position:fixed;
+    top:80px;
+    left:-100%;
+
+    text-align:center;
+    
+
+    width:70%; /*It depends on you whether you would set 100% of width or some px*/
+    height:100vh;
+
+    background:#2c3e50;
+
+    transition:all 0.9s;
+  }
+
+  .right-nav ul{
+    display: block;
+  }
+
+
+
+  .right-nav ul li {
+    display:block;
+
+    margin:50px 0px;
+
+    line-height:30px;
+
+  }
+
+  .active {
+    background: none;
+    
+  }
+
+  .right-nav ul li:hover {
+       background:#073BA1;
+       transform: none;
+
+       padding:5px 10px; 
+  }
+
+  .right-nav ul li a {
+    
+    color:white;
+
+    font-size:20px;
+    font-weight: 500;
+    font-family:sans-serif;
+  }
+
+
+  
+  .flex-box-nav {
+    flex-direction: row-reverse;
+  }
+
+  #check:checked ~ .right-nav { 
+    /*It means that 
+    when we click or check the input that type is checkbox, all siblings of it that is ul will be selected*/
+    left:0;
+  }
+
+
+  .checkbtn {
+    display:block;
+
+    color:#073BA1;
+  }
+
+  /*Header part*/
+
+  header h1 {
+    color:#073BA1;
+  
+    font-size:32px;
+    font-weight: 500;
+  
+    line-height: 40px;
+  
+    margin-bottom:50px;
+  }
+
+  .right-header h2 {  /*HEADING details*/
+    color:#073BA1;
+  
+    font-size:24px;
+    font-weight: 500;
+  
+    line-height:30px;
+  }
+
+  .right-header p {
+    color:#073BA1;
+  
+    font-size:16px;
+    font-weight:400;
+  
+    line-height:26px;
+  }
+  
+
+
+  /*Flex-box second header*/
+
+  .flex-box-header-footer {
+    width:100%;
+    height: max-content;
+  
+    display:flex;
+    justify-content:space-between;
+  
+    column-gap: 42px;
+  
+    box-shadow: 0px 1px 4px 0px #073aa1cf;
+  
+    border-radius:18px;
+    padding:32px 37px;
+  }
+
+  .box h1 {
+    color:#073BA1;
+  
+    font-size:32px;
+    font-weight: 500;
+  
+    line-height: 40px;
+    
+    margin-bottom:0px;
+  }
+
+  .box p {
+    color:#042668;
+  
+    font-size:16px;
+    font-weight: 400;
+  
+    line-height: 20px;
+  
+    margin-top:10px;
+  }
+
+  /*Buttons*/
+
+  .right-section-btn {
+   display:none;
+  }
+
+  .left-section-btn {
+    height: 50px;
+    width:300px;
+    background:#EC3D5A;
+    color:white;
+  
+    font-size:16px;
+    font-weight: 500;
+  
+    line-height:22px;
+  
+    border:none;
+    border-radius: 8px;
+  
+    margin-right:15px;
+  
+    cursor: pointer;
+    transition:all 0.15s;
+  }
+
+  /*Section*/
+
+  .left-section h1{
+    color:#073BA1;
+  
+    font-size:24px;
+    font-weight: 500;
+  
+    line-height:30px;
+  }
+
+  .left-section p{
+    color:#073BA1;
+  
+    font-size:18px;
+    font-weight:400;
+  
+    line-height:26px; 
+  }
+
+
+  /*Section two*/
+
+  .address .container h1 {
+    color: #073BA1;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 30px;
+
+    
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .address .left-address span,
+.address .right-address h1 {
+  color:#073BA1;
+
+  font-size:20px;
+  font-weight: 500;
+
+  line-height: 26px;
+
+  margin-bottom:10px;
+}
+
+
+
+.address .left-address p,
+.address .right-address .right-address-box p {
+  color:#042668;
+
+  font-weight: 400;
+  font-size:16px;
+
+  line-height: 24px;
+
+  margin-bottom:10px;
+}
+
+
+.right-address .phone-flex,
+.right-address .email-flex {
+  color:#073BA1 !important;
+
+  font-size:18px !important;
+  font-weight: 500 !important;
+
+  line-height: 26px !important;
+}
+
+
+.flex-box-address {
+  width:100%;
+  height: 100%;
+  
+  display:block;
+
+ 
+}
+
+.left-address {
+  text-align: center;
+}
+
+iframe {
+  border-radius:20px;
+
+  width:100%;
+  
+  margin-bottom:20px;
+}
+
+.right-address {
+  
+
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  column-gap:50px;
+}
+
+}
+
+
+@media all and (max-width:920px) {
+  /*header*/
+
+  header h1 {
+    color:#073BA1;
+  
+    font-size:30px;
+    font-weight: 500;
+  
+    line-height: 38px;
+  
+    margin-bottom:50px;
+  }
+
+  .flex-box-header {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column-reverse;
+    align-items:center;
+  
+    column-gap:100px;
+  }
+
+  .flex-box-header .left-header {
+    width:100%;
+    height: 100%;
+
+    text-align: center;
+  }
+
+  /*header-footer*/
+
+  .flex-box-header-footer {
+    width:100%;
+    height: max-content;
+  
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+
+    justify-content:end;
+  
+    column-gap: 42px;
+    row-gap:40px;
+    box-shadow:unset;
+  
+    border-radius:18px;
+    padding:0;
+  }
+
+  .box {
+    padding-left:100px;
+  }
+
+  /*section*/
+  
+  .flex-box-section {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+  
+    column-gap: 100px;
+  }
+  
+  .flex-box-section .right-section {
+    width:100%;
+    height: 100%;
+
+    text-align: center;
+  }
+
+  .left-section-btn {
+   display:none;
+  }
+
+  /* .flex-box-section .right-section img,
+  .flex-box-header .left-header img {
+    width:100%;
+  } */
+}
+
+
+@media all and (max-width:720px) {
+  .right-address {
+  
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    column-gap:50px;
+    row-gap:50px;
+  }
+
+}

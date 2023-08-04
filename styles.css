@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Rubik', sans-serif;
+
+  text-decoration: none;
+  list-style:none;
+}
+
+nav {
+  width:100%;
+  height:80px;
+
+  box-shadow: 0px 1px 4px 0px #073BA11A; /*For bottom shadow*/
+
+  margin-bottom:100px;
+}
+
+.container {
+  width:80%;
+  height: 100%;
+
+  margin:0 auto;
+}
+
+.flex-box-nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.left-nav {
+  /* width:100%; */
+  /* height:100%; */
+
+  display:flex;
+  align-items: center;
+
+  column-gap:40px;
+}
+
+.left-nav img,
+.left-nav p {
+  cursor:pointer;
+
+  transition: all 0.15s;
+}
+
+.left-nav img:hover,
+.left-nav p:hover {
+  transform: scale(1.2);
+}
+
+.left-nav img:active,
+.left-nav p:active {
+  opacity:0.5;
+}
+
+
+
+.right-nav ul {
+  display:flex;
+  align-items: center;
+
+  column-gap:40px;
+
+}
+
+.right-nav ul li {
+  transition: all 0.15s;
+}
+
+.right-nav ul li:hover {
+  transform: scale(1.2);
+}
+
+.right-nav ul li:active {
+  opacity:0.5;
+}
+
+.left-nav p {
+  color:#073BA1;
+  
+  font-size:16px;
+  font-weight:400;
+
+  line-height: 22px;
+
+  border-left:2px solid #073BA1;
+
+  padding-left:10px;
+}
+
+.right-nav ul li a {
+  color:#073BA1;
+
+  font-size:18px;
+  font-weight:400;
+
+  line-height: 26px;
+
+}
+
+
+
+/*header*/
+
+header {
+  width:100%;
+  height:max-content;
+
+  margin-bottom:50px;
+
+}
+
+header h1 {
+  color:#073BA1;
+
+  font-size:34px;
+  font-weight: 500;
+
+  line-height: 42px;
+
+  margin-bottom:50px;
+}
+
+.flex-box-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  column-gap:100px;
+}
+
+.right-header h2 {  /*HEADING details*/
+  color:#073BA1;
+
+  font-size:26px;
+  font-weight: 500;
+
+  line-height:32px;
+}
+
+.right-header p {
+  color:#073BA1;
+
+  font-size:20px;
+  font-weight:400;
+
+  line-height:28px;
+}
+
+.right-header h2,
+.right-header p {
+  margin-bottom:30px;
+}
+
+.flex-box-header-parent-footer {
+width:100%;
+height:max-content;
+
+display: flex;
+justify-content:end;
+}
+
+
+.box h1 {
+  color:#073BA1;
+
+  font-size:34px;
+  font-weight: 500;
+
+  line-height: 42px;
+  
+  margin-bottom:0px;
+}
+
+.box p {
+  color:#042668;
+
+  font-size:16px;
+  font-weight: 400;
+
+  line-height: 22px;
+
+  /* margin-bottom:0px; */
+}
+
+section {
+  width:100%;
+  height: max-content;
+
+}
+
+.flex-box-section {
+  display: flex;
+  justify-content:space-between;
+
+  column-gap: 100px;
+}
+
+.left-section h1{
+  color:#073BA1;
+
+  font-size:26px;
+  font-weight: 500;
+
+  line-height:32px;
+}
+
+.left-section p{
+  color:#073BA1;
+
+  font-size:20px;
+  font-weight:400;
+
+  line-height:28px; 
+}
+
+.left-section h1,
+.left-section p {
+  margin-bottom:30px;
+}
+
+.left-section-btn {
+  height: 50px;
+  width:230px;
+  background:#EC3D5A;
+  color:white;
+
+  font-size:18px;
+  font-weight: 500;
+
+  line-height:24px;
+
+  border:none;
+  border-radius: 8px;
+
+  margin-right:15px;
+
+  cursor: pointer;
+  transition:all 0.15s;
+}
+
+.right-section-btn {
+  height: 50px;
+  width:230px;
+  
+  background:white;
+  color:#073BA1;
+
+  font-size:18px;
+  font-weight: 500;
+
+  line-height:24px;
+
+  border:none;
+  border-radius: 8px;
+  border: 1px solid #073BA1;
+
+  cursor: pointer;
+  transition:all 0.15s;
+}
+
+.right-section-btn:hover,
+.left-section-btn:hover {
+  transform: scale(1.1);
+  
+}
+
+.right-section-btn:active,
+.left-section-btn:active {
+  opacity: 0.5;
+} 
+
+
+
+/* Address-part */
+
+.address { /*It's a section element*/
+  margin-bottom:100px;
+}
+
+.flex-box-address {
+  width:100%;
+  height: 100%;
+  
+  display:flex;
+  justify-content: space-between;
+
+  column-gap:50px;
+}
+
+.left-address,
+.right-address {
+  width: 100%;
+  height: 100%;
+}
+
+.right-address .right-address-box {
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  border-radius:20px;
+}
+
+.address .container h1 {
+  color: #073BA1;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 42px;
+  margin-bottom: 50px;
+}
+
+.address .left-address span,
+.address .right-address h1 {
+  color:#073BA1;
+
+  font-size:22px;
+  font-weight: 500;
+
+  line-height: 28px;
+
+  margin-bottom:10px;
+}
+
+.address .left-address p,
+.address .right-address .right-address-box p {
+  color:#042668;
+
+  font-weight: 400;
+  font-size:18px;
+
+  line-height: 26px;
+
+  margin-bottom:10px;
+}
+
+.right-address .right-address-box h1 {
+  margin-bottom:20px;
+}
+ 
+.right-address .phone-flex,
+.right-address .email-flex {
+  color:#073BA1 !important;
+
+  font-size:20px !important;
+  font-weight: 500 !important;
+
+  line-height: 28px !important;
+}
+
+.phone-flex,
+.email-flex {
+  display:flex;
+  align-items: center;
+
+  column-gap: 10px;
+
+  margin-bottom:30px;
+}
+
+.phone-flex p,
+.email-flex p {
+  margin-bottom: 0px !important;;
+}
+
+
+.right-address-box .data-flex {
+  display:flex;
+  align-items: center;
+
+  column-gap:20px;
+}
+
+.right-address {
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+/*Footer */
+
+footer {
+  width: 100%;
+  height: max-content;
+
+  background:#073BA1;
+
+  padding:50px 0px;
+}
+
+.flex-box-footer {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  /* align-items:center; */
+  column-gap:50px;
+}
+
+footer .flex-box-footer p{
+  color:white;
+  
+  font-size:16px;
+  font-weight: 400;
+
+  line-height: 26px;
+
+  margin-top:10px;
+}
+
+footer .flex-box-footer h1 {
+  color:white;
+
+  font-size:18px;
+  font-weight: 500;
+
+  line-height: 26px;
+}
+
+.second-box-footer .data-flex {
+  display:flex;
+  align-items: center;
+
+  column-gap:20px;
+}
+
+.fourth-box-footer .credit-text-small {
+  font-size: 14px;
+  font-weight: 400;
+
+  line-height: 24px;
+}
+
+.third-box-footer .space,
+.fourth-box-footer .space {
+  margin-top:20px;
+}
+
+.first-box-footer,
+.second-box-footer,
+.third-box-footer,
+.fourth-box-footer {
+  height: 263px;
+  width:100%;
+}
+
+/*second-flex-footer*/
+
+.flex-box-footer-second {
+  width:100%;
+  height: 100%;
+
+  display:flex;
+  column-gap:90px;
+}
+
+.flex-box-footer-second p {
+  color:white;
+  
+  font-size:16px;
+  font-weight: 400;
+
+  line-height: 30px;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color:#fff;
+  float:right;
+  line-height: 80px;
+  cursor: pointer;
+
+  display:none; /*It'll remove it entirely.You could say that Instead of that approach,
+  you could use opacity:1; and it would be invisible but it 
+  would be still on page taking up some determined space when
+  you inspect it*/
+}
+
+#check {
+  display:none;
+}
+
+
